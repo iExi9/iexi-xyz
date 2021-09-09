@@ -1,0 +1,81 @@
+*{
+    z-index: 100;
+}
+main{
+    background-color: #1D1E22;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-div2{
+    margin-left: 30px;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 350px;
+    border-radius: 4px;
+    background-color: #2F3137;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: 300ms;
+}
+.main-div2 p{
+    color: #EEEEEE;
+    font-size: 22px;
+}
+.main-div2 input[type=text]{
+    padding: 3px;
+    outline: none;
+    color: #768FEA;
+    border: 1px solid #dddddd ;
+    background-color: #303138;
+    border-radius: 4px;
+    transition: 300ms;
+}
+.main-div2 textarea{
+    resize: none;
+    height: 100px;
+    width: 230px;
+    border: 1px solid #dddddd ;
+    background-color: #303138;
+    border-radius: 4px;
+    transition: 300ms;
+    color: #768FEA;
+}
+.main-div2 button{
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    background-color: #303138;;
+    width: 230px;
+    transition: 300ms;
+    color: #768FEA;
+}
+.main-div2 button:hover{
+    background-color: #1D1E22;
+}
+.main-div2 textarea:hover{
+    background-color: #1D1E22;
+}
+.main-div2 input[type=text]:hover{
+    background-color: #1D1E22;
+}
+.main-div2 textarea:focus{
+    background-color: #1D1E22;
+}
+.main-div2 input[type=text]:focus{
+    background-color: #1D1E22;
+}
+@media only screen and (max-width: 600px) {
+    .sidebar{
+        display: flex;
+        width: 250px;
+        transform: translateX(15px);
+    }
+}

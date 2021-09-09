@@ -1,0 +1,30 @@
+.card{
+    margin-left: 80px;
+    height: 360px;
+    width: 260px;
+    background-color: #2F3137;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card p{
+    margin-top: 10px;
+    font-size: 22px;
+    color: #EEEEEE;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card img{
+    border: 1px solid #2F3137;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+.card .buttons{
+    margin-top: 20px;
+}

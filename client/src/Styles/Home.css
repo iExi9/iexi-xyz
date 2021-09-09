@@ -1,0 +1,78 @@
+*{
+    z-index: 999;
+}
+main{
+    background-color: #1D1E22;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.main-about{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.about-me{
+    color: #EEEEEE;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+}
+.main-technology{
+    display: flex;
+    color: #EEEEEE;
+    flex-direction: column;
+}
+.main-technology p {
+    transform: translateY(40px);
+    font-size: 22px;
+    display: flex;
+}
+.technology-icons{
+    display: flex;
+    transform: translate(-8px,40px);
+    margin-top: 10px;
+}
+.technology-icons img{
+    width: 128px;
+}
+
+.main-div{
+    display: flex;
+}
+.about-me{
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    main{
+      display: flex;
+      flex-direction: column;
+      height: 120vh;
+    }
+    .technology-icons{
+        margin-bottom: 50px;
+    }
+    .main-technology{
+        margin-top: 0px;
+    }
+    .sidebar{
+        height: 30px;
+        width: 10px;
+    }
+    .main-div{
+        margin-left: -75px;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-me{
+        margin-top: 0;
+    }
+    .waves{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+  }

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body{
+  display: flex;
+  z-index:1;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
+
+@keyframes run {
+  0% { margin-left: -98%;}
+  100%{ margin-left: 0%;}
+}
+
+.waves{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index:1;
+}
